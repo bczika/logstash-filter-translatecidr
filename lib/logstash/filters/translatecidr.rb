@@ -136,7 +136,7 @@ class LogStash::Filters::Translatecidr < LogStash::Filters::Base
       raise LogStash::ConfigurationError, I18n.t(
         "logstash.agent.configuration.invalid_plugin_register",
         :plugin => "filter",
-        :type => "translate",
+        :type => "translatecidr",
         :error => "The configuration options 'dictionary' and 'dictionary_path' are mutually exclusive"
       )
     end
@@ -283,4 +283,4 @@ class LogStash::Filters::Translatecidr < LogStash::Filters::Base
   def needs_refresh?
     @next_refresh < Time.now
   end
-end # class LogStash::Filters::Translate
+end # class LogStash::Filters::Translatecidr
