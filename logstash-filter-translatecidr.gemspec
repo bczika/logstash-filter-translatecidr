@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description     = "This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install gemname. This gem is not a stand-alone program"
   s.authors         = "Brad Czika"
   s.email           = 'bradczika@gmail.com'
-  s.homepage        = "http://www.elastic.co/guide/en/logstash/current/index.html"
+  s.homepage        = "http://github.com/bczika/logstash-filter-translatecidr.git"
   s.require_paths = ["lib"]
 
   # Files
